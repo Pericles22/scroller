@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "phaser": "^3.16.2"
+    "parcel-bundler": "^1.11.0",
+    "phaser": "^3.16.2",
+    "phaser3-docs": "github:photonstorm/phaser3-docs",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "dev": "parcel index.html"
   }
 }
